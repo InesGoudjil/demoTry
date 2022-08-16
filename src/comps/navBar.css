@@ -1,0 +1,79 @@
+.container {
+    background-image: url('./bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+.espace {
+    height: 15vh;
+}
+
+h4 {
+    height: 200px;
+    width: 100%;
+    text-justify: inter-word;
+    color: antiquewhite;
+    opacity: 0.5;
+    letter-spacing: 5px;
+
+    width: auto;
+    height: auto;
+
+}
+
+.bigTitle {
+    margin: 3%;
+    
+}
+
+h1 {
+    font-size: 100px;
+    letter-spacing: 2px;
+    color: white;
+}
+
+hr {
+    margin: auto;
+    width: 10%;
+    height: 8px;
+    background-color: antiquewhite;
+    opacity: 0.2;
+}
+
+.para {
+    margin: auto;
+    margin-top: 2%;
+    width: 50%;
+    color: antiquewhite;
+    font-size: 22px;
+}
+
+
+
+
+button {
+    margin: auto;
+    margin-top: 10%;
+    width: 120px;
+    height: 60px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 500px;
+    transition-duration: 0.3s;
+    border: 1px solid transparent;
+    letter-spacing: 2px;
+    width: 180px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(67, 55, 103);
+    background-color: white;
+    height: 60px;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
