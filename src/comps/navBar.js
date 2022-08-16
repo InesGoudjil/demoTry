@@ -1,4 +1,5 @@
-import './navBar.css';
+import './NavBar.css';
+import {Link} from "react-router-dom";
 
 function NavBar() {
     return (
@@ -8,6 +9,7 @@ function NavBar() {
             </div>
 
             <h4>EUISMOD</h4>
+            <Link to='/scndPage'>test w khlas</Link>
 
             <div className='bigTitle'>
                 <h1>Future Perfect</h1>
@@ -15,7 +17,7 @@ function NavBar() {
 
             <hr></hr>
 
-            <div className='para'>
+            <div className='para'>               
                 <p>
                     Morbi quis commodo odio aenean sed. Sit amet consectetur adipiscing elit pellentesque habitant morbi sed et adipiscing.
                 </p>
