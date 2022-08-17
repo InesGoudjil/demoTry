@@ -7,8 +7,19 @@
 
 }
 
-.espace {
+.liste {
     height: 15vh;
+    float: right;
+    position: absolute;
+}
+
+ul, li{
+    display: inline;
+    padding-right: 30px;
+    color: aliceblue;
+    list-style: none;
+    text-decoration: none;
+
 }
 
 h4 {
